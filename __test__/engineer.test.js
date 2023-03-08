@@ -36,7 +36,7 @@ describe('Engineer', () => {
 
     it('should return the role of the engineer', () => {
       const engineer = new Engineer('John', 123, 'john@example.com', 'john-github');
-      expect(engineer.getRole()).toEqual('engineer');
+      expect(engineer.getRole()).toEqual('Engineer');
     });
   });
 });
